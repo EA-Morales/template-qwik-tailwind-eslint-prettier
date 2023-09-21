@@ -1,7 +1,6 @@
-import { Counter } from "./components/counter/counter";
-import { Logo } from "./components/logo/logo";
+import "./global.css";
 
-export default () => {
+export default () => {  
   return (
     <>
       <head>
@@ -9,8 +8,7 @@ export default () => {
         <title>Qwik Blank App</title>
       </head>
       <body>
-        <Logo />
-        <Counter />
+        <h1 class="text-9xl text-red-600">HOLA MUNDOS</h1>
       </body>
     </>
   );
